@@ -93,6 +93,7 @@ data_byinterval_bywk <- data_nareplaced %>%
   summarize( avg.steps = mean(steps) )
 
 xyplot( avg.steps~interval | wk, data=data_byinterval_bywk, xlab="5-minute interval", ylab="average number of steps taken across weekdays/weekends", type='l', layout=(c(1,2)))
-       
-
 ```
+
+Note that the activity on weekdays starts earlier (around 500/60 ~ 8:20AM) than on weekends (around 700/60 ~ 11:40AM). Also the peak is taller on weekdays (we walk more commuting to work?)
+

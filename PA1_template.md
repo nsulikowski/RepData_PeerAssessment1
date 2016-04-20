@@ -134,3 +134,5 @@ xyplot( avg.steps~interval | wk, data=data_byinterval_bywk, xlab="5-minute inter
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-8-1.png)
+
+Note that the activity on weekdays starts earlier (around 500/60 ~ 8:20AM) than on weekends (around 700/60 ~ 11:40AM)
